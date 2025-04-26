@@ -1,0 +1,49 @@
+.latest-section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: var(--light-gray);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.latest-section h2 {
+  font-size: 2rem;
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--background-color);
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  margin-bottom: 10px;
+  color: var(--dark-gray);
+}
+
+.card strong {
+  color: var(--secondary-color);
+}
+
+.card .summary {
+  font-size: 0.9rem;
+  color: var(--mid-gray);
+}

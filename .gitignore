@@ -1,0 +1,16 @@
+# Python
+verifact-server/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Node
+verifact-client/node_modules/
+dist/
+build/
+
+# Other
+.env
+.DS_Store
+*.log

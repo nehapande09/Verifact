@@ -1,0 +1,48 @@
+.verification-form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .live-demo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .demo-button {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .play-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .verify-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0 2rem;
+    font-size: 1rem;
+  }
